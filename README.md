@@ -34,9 +34,6 @@
 ```cpp
 #include "MIDIUSB.h"
 
-// =========================================================================
-// CONFIGURACIÓN DE PINES
-// =========================================================================
 const int pinPot1 = A0;
 const int pinPot2 = A1;
 
@@ -47,25 +44,17 @@ const int pinBoton3 = 4;
 const int pinTactil1 = 5;
 const int pinTactil2 = 6;
 
-// =========================================================================
-// ASIGNACIÓN MIDI (Canal 1 por defecto)
-// =========================================================================
-const byte canalMIDI = 0; // En código, el canal 1 se representa como 0 (0-15)
+const byte canalMIDI = 0; 
 
-// Asignación de Notas Musicales para botones y táctiles (60 = Do central)
-const byte notaB1  = 60; // Do (C4)
-const byte notaB2  = 62; // Re (D4)
-const byte notaB3  = 64; // Mi (E4)
-const byte notaT1  = 65; // Fa (F4)
-const byte notaT2  = 67; // Sol (G4)
+const byte notaB1  = 60; 
+const byte notaB2  = 62; 
+const byte notaB3  = 64; 
+const byte notaT1  = 65; 
+const byte notaT2  = 67; 
 
-// Asignación de números de Control Change (CC) para los potenciómetros
 const byte ccPot1  = 10; 
 const byte ccPot2  = 11; 
 
-// =========================================================================
-// VARIABLES DE CONTROL DE ESTADO
-// =========================================================================
 int ultimoCC1 = -1;
 int ultimoCC2 = -1;
 
@@ -82,7 +71,6 @@ void setup() {
 }
 
 void loop() {
-  // 1. PROCESAR POTENCIÓMETROS (Control Change - CC)
   int actualCC1 = map(analogRead(pinPot1), 0, 1023, 0, 127);
   int actualCC2 = map(analogRead(pinPot2), 0, 1023, 0, 127);
 
@@ -95,7 +83,6 @@ void loop() {
     ultimoCC2 = actualCC2;
   }
 
-  // 2. PROCESAR BOTONES Y SENSORES TÁCTILES (Note On / Note Off)
   bool lecturaB1 = digitalRead(pinBoton1);
   bool lecturaB2 = digitalRead(pinBoton2);
   bool lecturaB3 = digitalRead(pinBoton3);
@@ -143,9 +130,25 @@ void enviarNotaOff(byte canal, byte nota, byte velocidad) {
   MidiUSB.sendMIDI(notaOff);
   MidiUSB.flush();
 }
+```
+## 🚀 Guía de Instalación y Uso Rápido
 
-void enviarControlChange(byte canal, byte control, byte valor) {
-  midiEventPacket_t cc = {0x0B, (byte)(0xB0 | canal), control, valor};
-  MidiUSB.sendMIDI(cc);
-  MidiUSB.flush();
-}
+### Fase 1: Configuración del Hardware
+* **1. Instalación de la Librería:** En el IDE de Arduino, ir a `Herramientas -> Administrar Bibliotecas...`, buscar e instalar **`MIDIUSB`** (de Arduino).
+* **2. Selección de Placa:** Asegurarse de seleccionar **Arduino Leonardo** en `Herramientas -> Placa`.
+* **3. Carga del Firmware:** Conectar el Arduino Leonardo por USB y cargar el código al microcontrolador.
+
+### Fase 2: Integración con Hydra Synth
+* **1. Entrar a Hydra:** Ir a la plataforma web de live-coding [Hydra Synth](https://hydra.ojack.xyz/).
+* **2. Ejecutar Script:** Copiar e inicializar la extensión **`hydra-midi`** ejecutando el siguiente bloque en la consola:
+```JavaScript
+await loadScript('[https://cdn.jsdelivr.net/npm/hydra-midi@latest/dist/index.js](https://cdn.jsdelivr.net/npm/hydra-midi@latest/dist/index.js)')
+await midi.start().show()
+```
+---
+
+## 📚 Referencias & Reconocimientos
+
+* 📹 **Programación MIDI USB:** Referencia de estructura y manejo en Arduino basada en el tutorial de [Nerd Musician](https://www.youtube.com/watch?v=Etb6uzAZwRA).
+* 🎨 **Shaders Adicionales:** Repositorio de efectos [extra-shaders-for-hydra](https://gitlab.com/metagrowing/extra-shaders-for-hydra) desarrollado por **Thomas Jourdan** (*metagrowing*).
+* 🕹️ **Inspiración de Estructura:** Guías de diseño abiertas inspiradas en proyectos como [Arduinoboy](https://github.com/trash80/arduinoboy).
