@@ -59,6 +59,19 @@ flowchart LR
 | **Potenciómetro 2** | Analógico | `A1` | CC 11 | Modulación de Capas / Velocidad |
 
 ---
+## 🛠️ Conexiones y materiales
+
+| Montaje | Arduino Leonardo |
+| :---: | :---: |
+| <img width="300" alt="Conexiones 1" src="https://github.com/user-attachments/assets/463943c8-3378-4505-a368-e9ee0d7afb5b" /> | <img width="300" alt="Conexiones 2" src="https://github.com/user-attachments/assets/32487959-4cc8-47ac-a109-bc93a69d1c23" /> |
+
+### 🧪 Prueba en Tinkercad
+
+<p align="center"> 
+ <href="https://youtu.be/lFxMT9V71v0"> 
+<img src="https://img.youtube.com/vi/Oh7JFBQOh2Q/maxresdefault.jpg" width="700" alt="Ver video demostrativo en YouTube"> </p>
+  
+---
 
 ## 💻 Código Firmware (Arduino IDE)
 
@@ -200,13 +213,4 @@ await midi.start().show()
 * 📹 **Programación MIDI USB:** Referencia de estructura y manejo en Arduino basada en el tutorial de [Nerd Musician](https://www.youtube.com/watch?v=Etb6uzAZwRA).
 * 🎨 **Shaders Adicionales:** Repositorio de efectos [extra-shaders-for-hydra](https://gitlab.com/metagrowing/extra-shaders-for-hydra) desarrollado por **Thomas Jourdan** (*metagrowing*).
 * 🕹️ **Inspiración de Estructura:** Guías de diseño abiertas inspiradas en proyectos como [Arduinoboy](https://github.com/trash80/arduinoboy).
----
-## Conexiones y Materiales
-<img width="581" height="666" alt="Captura de pantalla 2026-11-03 231222" src="https://github.com/user-attachments/assets/463943c8-3378-4505-a368-e9ee0d7afb5b" />
-<img width="560" height="563" alt="Captura de pantalla 2026-11-03 231348" src="https://github.com/user-attachments/assets/32487959-4cc8-47ac-a109-bc93a69d1c23" />
 
----
-## Prueba tinkercad
-<img width="1098" height="763" alt="Captura de pantalla 2026-11-03 231311" src="https://github.com/user-attachments/assets/8e938855-4397-448e-84e6-73882b1b5083" />
-
-[![Ver video demostrativo en YouTube](https://img.youtube.com/vi/lFxMT9V71v0/maxresdefault.jpg)](https://youtu.be/lFxMT9V71v0)
