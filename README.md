@@ -31,6 +31,9 @@
 
 ## 💻 Código Firmware (Arduino IDE)
 
+<details>
+<summary>📋 Ver código completo</summary>
+ 
 ```cpp
 #include "MIDIUSB.h"
 
@@ -131,6 +134,10 @@ void enviarNotaOff(byte canal, byte nota, byte velocidad) {
   MidiUSB.flush();
 }
 ```
+
+</details>
+
+---
 ## 🚀 Guía de Instalación y Uso Rápido
 
 ### Fase 1: Configuración del Hardware
