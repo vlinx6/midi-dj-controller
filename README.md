@@ -68,8 +68,8 @@ flowchart LR
 ### 🧪 Prueba en Tinkercad
 
 <p align="center"> 
- <href="https://youtu.be/lFxMT9V71v0"> 
-<img src="https://img.youtube.com/vi/Oh7JFBQOh2Q/maxresdefault.jpg" width="700" alt="Ver video demostrativo en YouTube"> </p>
+ <p href="https://youtu.be/lFxMT9V71v0"> 
+<img src="https://img.youtube.com/vi/lFxMT9V71v0/maxresdefault.jpg" width="700" alt="Ver video demostrativo en YouTube"> </p>
   
 ---
 
