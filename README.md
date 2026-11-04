@@ -17,6 +17,10 @@
 
 <sub>▶ Clic en la imagen para ver la demo</sub>
 
+</div>
+
+---
+
 > Controlador MIDI artesanal basado en **Arduino Leonardo (ATmega32u4)** con sensores táctiles capacitivos TTP223, botones mecánicos y potenciómetros analógicos, diseñado para la generación y control de visuales en tiempo real mediante **Hydra Synth**.
 
 ---
