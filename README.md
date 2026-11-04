@@ -67,10 +67,11 @@ flowchart LR
 
 ### 🧪 Prueba en Tinkercad
 
-<p align="center"> 
- <p href="https://youtu.be/lFxMT9V71v0"> 
-<img src="https://img.youtube.com/vi/lFxMT9V71v0/maxresdefault.jpg" width="700" alt="Ver video demostrativo en YouTube"> </p>
-  
+<p align="center">
+  <a href="https://youtu.be/lFxMT9V71v0">
+    <img src="https://img.youtube.com/vi/lFxMT9V71v0/maxresdefault.jpg" width="700" alt="Ver video demostrativo en YouTube">
+  </a>
+</p>
 ---
 
 ## 💻 Código Firmware (Arduino IDE)
