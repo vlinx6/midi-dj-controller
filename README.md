@@ -149,7 +149,7 @@ await midi.start().show()
 
 ## 📚 Referencias & Reconocimientos
 
-* Autores: Vlinx y Zaiiv 
+* **Autores: Vlinx y Zaiiv**
 * 📹 **Programación MIDI USB:** Referencia de estructura y manejo en Arduino basada en el tutorial de [Nerd Musician](https://www.youtube.com/watch?v=Etb6uzAZwRA).
 * 🎨 **Shaders Adicionales:** Repositorio de efectos [extra-shaders-for-hydra](https://gitlab.com/metagrowing/extra-shaders-for-hydra) desarrollado por **Thomas Jourdan** (*metagrowing*).
 * 🕹️ **Inspiración de Estructura:** Guías de diseño abiertas inspiradas en proyectos como [Arduinoboy](https://github.com/trash80/arduinoboy).
