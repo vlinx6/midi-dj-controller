@@ -159,7 +159,7 @@ await midi.start().show()
 <img width="560" height="563" alt="Captura de pantalla 2026-11-03 231348" src="https://github.com/user-attachments/assets/32487959-4cc8-47ac-a109-bc93a69d1c23" />
 
 ---
-## Prueba thinkercard
+## Prueba tinkercad
 <img width="1098" height="763" alt="Captura de pantalla 2026-11-03 231311" src="https://github.com/user-attachments/assets/8e938855-4397-448e-84e6-73882b1b5083" />
 
 [![Ver video demostrativo en YouTube](https://img.youtube.com/vi/lFxMT9V71v0/maxresdefault.jpg)](https://youtu.be/lFxMT9V71v0)
