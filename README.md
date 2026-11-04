@@ -161,4 +161,4 @@ await midi.start().show()
 ## Prueba thinkercard
 <img width="1098" height="763" alt="Captura de pantalla 2026-11-03 231311" src="https://github.com/user-attachments/assets/8e938855-4397-448e-84e6-73882b1b5083" />
 
-[![Ver video demostrativo en YouTube](https://img.youtube.com/vi/1FxMT9V71v0/maxresdefault.jpg)](https://youtu.be/1FxMT9V71v0) 
+[![Ver video demostrativo en YouTube](https://img.youtube.com/vi/lFxMT9V71v0/maxresdefault.jpg)](https://youtu.be/lFxMT9V71v0)
