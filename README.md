@@ -154,6 +154,15 @@ await midi.start().show()
 ```
 ---
 
+## 🔭 Próximas mejoras
+
+- [ ] Más sensores táctiles y botones
+- [ ] Caja o carcasa propia
+- [ ] Sketches de Hydra listos para cada control
+- [ ] Más canales MIDI y modos de uso
+
+---
+
 ## 📚 Referencias & Reconocimientos
 
 * **Autores: Vlinx y Zaiiv**
