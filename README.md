@@ -33,6 +33,19 @@
 
 ---
 
+## 🔁 Cómo funciona
+
+```mermaid
+flowchart LR
+    A[Botones mecánicos] --> D[Arduino Leonardo]
+    B[Sensores táctiles TTP223] --> D
+    C[Potenciómetros] --> D
+    D -->|USB-MIDI| E[hydra-midi]
+    E --> F[Visuales en tiempo real]
+```
+
+---
+
 ## 🗺️ Mapeo de Pines y Señales (Pinout)
 
 | Componente | Tipo de Entrada | Pin Arduino | Nota / Comando MIDI | Función Asociada |
