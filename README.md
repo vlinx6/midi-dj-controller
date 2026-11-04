@@ -11,12 +11,11 @@
 ![Hydra](https://img.shields.io/badge/visuales-Hydra%20Synth-8a2be2)
 ![Estado](https://img.shields.io/badge/estado-funcionando-2ea043)
 
-<a href="https://youtube.com/shorts/Oh7JFBQOh2Q"> 
-<img src="https://img.youtube.com/vi/Oh7JFBQOh2Q/maxresdefault.jpg" width="640" alt="Ver video demostrativo en YouTube"> </a>
+<a href="https://youtube.com/shorts/Oh7JFBQOh2Q">
+  <img src="https://img.youtube.com/vi/Oh7JFBQOh2Q/hqdefault.jpg" width="320" alt="Ver video demostrativo en YouTube">
+</a>
 
 <sub>▶ Clic en la imagen para ver la demo</sub>
-
-</div>
 
 > Controlador MIDI artesanal basado en **Arduino Leonardo (ATmega32u4)** con sensores táctiles capacitivos TTP223, botones mecánicos y potenciómetros analógicos, diseñado para la generación y control de visuales en tiempo real mediante **Hydra Synth**.
 
