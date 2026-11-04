@@ -71,7 +71,10 @@ flowchart LR
   <a href="https://youtu.be/lFxMT9V71v0">
     <img src="https://img.youtube.com/vi/lFxMT9V71v0/maxresdefault.jpg" width="700" alt="Ver video demostrativo en YouTube">
   </a>
+  <br>
+  <sub>▶ Haz clic en la imagen para ver el video</sub>
 </p>
+
 ---
 
 ## 💻 Código Firmware (Arduino IDE)
