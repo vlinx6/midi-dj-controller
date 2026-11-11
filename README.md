@@ -79,10 +79,9 @@ flowchart LR
 </p>
 
 ### 📦 Construcción del controlador
-
 | Panel frontal | Interior del panel | Arduino dentro de la caja |
 | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/TU-ENLACE-1" width="280" alt="Panel frontal"> | <img src="https://github.com/user-attachments/assets/TU-ENLACE-2" width="210" alt="Interior del panel"> | <img src="https://github.com/user-attachments/assets/TU-ENLACE-3" width="280" alt="Arduino dentro de la caja"> |
+| <img src="assets/panel-frontal.jpg" width="280" alt="Panel frontal"> | <img src="assets/panel-interior.jpg" width="210" alt="Interior del panel"> | <img src="assets/arduino-interior.jpg" width="280" alt="Arduino dentro de la caja"> |
 | Sensores táctiles, botones y potenciómetros | Cableado de los potenciómetros | Arduino y protoboard con todo conectado |
 
 ---
