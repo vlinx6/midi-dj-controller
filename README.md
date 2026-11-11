@@ -65,7 +65,7 @@ flowchart LR
 ## 🛠️ Conexiones y materiales
 
 | Montaje | Arduino Leonardo | Cables |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | 
 | <img width="300" alt="Conexiones 1" src="https://github.com/user-attachments/assets/463943c8-3378-4505-a368-e9ee0d7afb5b" /> | <img width="300" alt="Conexiones 2" src="https://github.com/user-attachments/assets/32487959-4cc8-47ac-a109-bc93a69d1c23" /> | <img src="assets/Cables.jpg" width="280" alt="Arduino dentro de la caja"> |
 
 ### 🧪 Prueba en Tinkercad
@@ -81,7 +81,7 @@ flowchart LR
 ### 📦 Construcción del controlador
 | Planos | Panel frontal | Interior del panel | Arduino dentro de la caja |
 | :---: | :---: | :---: | :---: |
-| <img src="assets/Medida carcasa.jpg" width="280" alt="Panel frontal">| <img src="assets/panel-frontal.jpg" width="280" alt="Panel frontal"> | <img src="assets/panel-interior.jpg" width="210" alt="Interior del panel"> | <img src="assets/arduino-interior.jpg" width="280" alt="Arduino dentro de la caja"> |
+| <img src="assets/Medida carcasa.jpg" width="280" alt="Panel frontal"> | <img src="assets/panel-frontal.jpg" width="280" alt="Panel frontal"> | <img src="assets/panel-interior.jpg" width="210" alt="Interior del panel"> | <img src="assets/arduino-interior.jpg" width="280" alt="Arduino dentro de la caja"> |
 | Medido, seguún lo ancho y largo que es la protobard | Sensores táctiles, botones y potenciómetros | Cableado de los potenciómetros | Arduino y protoboard con todo conectado |
 
 ---
