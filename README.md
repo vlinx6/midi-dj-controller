@@ -65,7 +65,7 @@ flowchart LR
 ## 🛠️ Conexiones y materiales
 
 | Montaje | Arduino Leonardo | Cables |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | <img width="300" alt="Conexiones 1" src="https://github.com/user-attachments/assets/463943c8-3378-4505-a368-e9ee0d7afb5b" /> | <img width="300" alt="Conexiones 2" src="https://github.com/user-attachments/assets/32487959-4cc8-47ac-a109-bc93a69d1c23" /> | <img src="assets/Cables.jpg" width="280" alt="Arduino dentro de la caja"> |
 
 ### 🧪 Prueba en Tinkercad
