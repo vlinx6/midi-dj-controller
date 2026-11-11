@@ -198,7 +198,37 @@ void enviarNotaOff(byte canal, byte nota, byte velocidad) {
 
 ### Fase 2: Integración con Hydra Synth
 * **1. Entrar a Hydra:** Ir a la plataforma web de live-coding [Hydra Synth](https://hydra.ojack.xyz/).
-* **2. Ejecutar Script:** Copiar e inicializar la extensión **`hydra-midi`** ejecutando el siguiente bloque en la consola:
+* **2. Presiona F12:** Ve a console y pega el codigo [MIDI Synth](https://hydra.ojack.xyz/hydra-docs-v2/docs/learning/sequencing-and-interactivity/midi/).
+```JavaScript
+// register WebMIDI
+navigator.requestMIDIAccess()
+    .then(onMIDISuccess, onMIDIFailure);
+
+function onMIDISuccess(midiAccess) {
+    console.log(midiAccess);
+    var inputs = midiAccess.inputs;
+    var outputs = midiAccess.outputs;
+    for (var input of midiAccess.inputs.values()){
+        input.onmidimessage = getMIDIMessage;
+    }
+}
+
+function onMIDIFailure() {
+    console.log('Could not access your MIDI devices.');
+}
+
+//create an array to hold our cc values and init to a normalized value
+var cc=Array(128).fill(0.5)
+
+getMIDIMessage = function(midiMessage) {
+    var arr = midiMessage.data    
+    var index = arr[1]
+    //console.log('Midi received on cc#' + index + ' value:' + arr[2])    // uncomment to monitor incoming Midi
+    var val = (arr[2]+1)/128.0  // normalize CC values to 0.0 - 1.0
+    cc[index]=val
+}
+```
+* **3. Ejecutar Script:** Copiar e inicializar la extensión **`hydra-midi`** ejecutando el siguiente bloque en la consola:
 ```JavaScript
 await loadScript('[https://cdn.jsdelivr.net/npm/hydra-midi@latest/dist/index.js](https://cdn.jsdelivr.net/npm/hydra-midi@latest/dist/index.js)')
 await midi.start().show()
