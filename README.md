@@ -80,7 +80,7 @@ flowchart LR
 
 ### 📦 Construcción del controlador
 | Planos | Panel frontal | Interior del panel | Arduino dentro de la caja |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | <img src="assets/Medida carcasa.jpg" width="280" alt="Panel frontal">| <img src="assets/panel-frontal.jpg" width="280" alt="Panel frontal"> | <img src="assets/panel-interior.jpg" width="210" alt="Interior del panel"> | <img src="assets/arduino-interior.jpg" width="280" alt="Arduino dentro de la caja"> |
 | Medido, seguún lo ancho y largo que es la protobard | Sensores táctiles, botones y potenciómetros | Cableado de los potenciómetros | Arduino y protoboard con todo conectado |
 
